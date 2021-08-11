@@ -1,0 +1,169 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	text-align: center;
+	width: 100%;
+	background-color: #A1B099;
+	font-family: 'Monserrat', sans-serif;
+	font-weight: bold;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-image: url('./boba.jpg');
+	height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	width: 100%;
+	font-family: 'Pacifico', cursive;
+	font-size: 100px;
+	color: #F8FCF5;
+}
+
+#nav-bar {
+	display: inline-flex;
+}
+
+a {
+	margin: 10px;
+	padding: 10px;
+	text-decoration: none;
+	font-family: 'Monserrat', sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #F8FCF5;
+}
+
+a:hover {
+	color: #A1B099;
+	background-color: #F8FCF5;
+	border-radius: 15px;
+}
+
+#mission {
+	background-color: #F8FCF5;
+	padding: 50px 50px;
+}
+
+#mission h2 {
+	color: #55634D;
+	font-family: 'Pacifico', cursive;
+	font-size: 40px;
+	margin-bottom: 40px;
+}
+
+#mission p {
+	font-size: 18px;
+	font-weight: normal;
+	color: #A1B099;
+}
+
+#drinks h2 {
+	width: 100%;
+	color: #F8FCF5;
+	font-family: 'Pacifico', cursive;
+	font-size: 40px;
+	margin-bottom: 40px;
+}
+
+#drinks {
+	margin-top: 80px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.drink {
+	padding: 10px;
+	flex-basis: 240px;
+}
+
+.drink img {
+	width: 200px;
+	margin: 0 auto 25px;
+	border-radius: 30px;
+}
+
+.drink span {
+	min-width: 200px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	color: #F8FCF5;
+}
+
+#team h2 {
+	color: #634363;
+	width: 100%;
+	font-family: 'Pacifico', cursive;
+	font-size: 40px;
+	margin-bottom: 40px;
+}
+
+#team {
+	background-color: #F8FCF5;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-top: 80px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.team-member {
+	margin-bottom: 20px;
+	padding: 10px;
+	flex-basis: 240px;
+	background-color: #B099B0;
+}
+
+.team-member img {
+	width: 200px;
+	margin: 25px auto 25px;
+	border-radius: 30px;
+}
+
+.team-member h3 {
+	min-width: 200px;
+	font-family: 'Pacifico', cursive;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #F8FCF5;
+}
+
+.team-member p {
+	font-weight: normal;
+	color: #F8FCF5;
+	padding: 10px 10px 25px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 150px;
+	background-color: #55634D;
+	color: #F8FCF5;
+}
+
+footer p {
+	margin: 50px;
+}
+
+/* Color palette: 
+	- Army Green: #55634D
+	- Off White: #F8FCF5
+	- Pale Green: #A1B099
+	- Dark Mauve: #634363
+	- Lavender: #B099B0
