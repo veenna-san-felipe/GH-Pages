@@ -5,7 +5,6 @@
 
 body {
 	text-align: center;
-	width: 100%;
 	background-color: #A1B099;
 	font-family: 'Monserrat', sans-serif;
 	font-weight: bold;
@@ -38,9 +37,10 @@ a {
 	margin: 10px;
 	padding: 10px;
 	text-decoration: none;
+	text-transform: uppercase;
 	font-family: 'Monserrat', sans-serif;
 	font-size: 18px;
-	text-transform: uppercase;
+	letter-spacing: 1px;
 	color: #F8FCF5;
 }
 
@@ -52,7 +52,7 @@ a:hover {
 
 #mission {
 	background-color: #F8FCF5;
-	padding: 50px 50px;
+	padding: 80px 50px 100px;
 }
 
 #mission h2 {
@@ -63,9 +63,12 @@ a:hover {
 }
 
 #mission p {
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: normal;
+	letter-spacing: 1px;
+	line-height: 26px;
 	color: #A1B099;
+	padding: 0px 70px;
 }
 
 #drinks h2 {
@@ -77,20 +80,20 @@ a:hover {
 }
 
 #drinks {
-	margin-top: 80px;
+	margin: 100px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 }
 
 .drink {
-	padding: 10px;
+	padding: 20px 10px 20px;
 	flex-basis: 240px;
 }
 
 .drink img {
 	width: 200px;
-	margin: 0 auto 25px;
+	margin: 0 auto 10px;
 	border-radius: 30px;
 }
 
@@ -99,7 +102,17 @@ a:hover {
 	font-weight: bold;
 	text-transform: uppercase;
 	text-align: center;
+	letter-spacing: 1px;
 	color: #F8FCF5;
+}
+
+#team {
+	background-color: #F8FCF5;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-top: 100px;
+	padding: 100px;
 }
 
 #team h2 {
@@ -110,19 +123,9 @@ a:hover {
 	margin-bottom: 40px;
 }
 
-#team {
-	background-color: #F8FCF5;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	margin-top: 80px;
-	padding-top: 80px;
-	padding-bottom: 80px;
-}
-
 .team-member {
-	margin-bottom: 20px;
-	padding: 10px;
+	margin-bottom: 50px;
+	padding: 25px;
 	flex-basis: 240px;
 	background-color: #B099B0;
 }
@@ -144,21 +147,50 @@ a:hover {
 
 .team-member p {
 	font-weight: normal;
+	letter-spacing: 1px;
 	color: #F8FCF5;
 	padding: 10px 10px 25px;
 }
 
 footer {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 150px;
+	padding: 20px;
 	background-color: #55634D;
 	color: #F8FCF5;
 }
 
-footer p {
-	margin: 50px;
+#footer-sections {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.foot-section {
+	flex-basis: 240px;
+	padding: 10px 0px 10px;
+	max-width: 275px;
+}
+
+.foot-section h4 {
+	font-family: 'Pacifico', cursive;
+	font-size: 26px;
+	letter-spacing: 2px;
+	color: #A1B099;
+}
+
+.foot-section p {
+	font-weight: normal;
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 28px;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+h5 {
+	padding-top: 25px;
+	font-size: 16px;	
 }
 
 /* Color palette: 
